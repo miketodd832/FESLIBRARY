@@ -12,13 +12,22 @@
   display: flex;
 }
 
+img {
+  width: 100%;
+}
+
 .nav__container {
-  display: flex;justify-content:space-between;
+  display: flex;
+  justify-content:space-between;
   align-items: center;
   width: 100%;
   max-width: 1200px;
   padding: 0 24px;
   margin: 0 auto;
+}
+
+.purple {
+  color:#7342d6;
 }
 
 .Logo {
@@ -57,4 +66,31 @@ li {
 
 #Landing {
   background-color: rgba(115, 66, 214, 0.1);
+}
+
+header {
+  height: (100vh - 80px);
+}
+
+.header__container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 56px;
+  color: #7342d6;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 32px;
+  
 }
