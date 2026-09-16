@@ -9,7 +9,7 @@
 
 .nav {
   height: 80px;
-  display: flex;
+  width: 1200px;
 }
 
 img {
@@ -22,7 +22,7 @@ img {
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  padding: 0 24px;
+  padding: 18px 24px;
   margin: 0 auto;
 }
 
@@ -69,11 +69,7 @@ li {
 }
 
 header {
-  height: (100vh - 80px);
-}
-
-.header__button {
-  color: blue;
+  height: 1200px;
 
 }
 
@@ -81,14 +77,28 @@ header {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
-  height:100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 25px;
 }
 
+.header__button {
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #7342d6;
+}
+
 .picture__container {
   margin-top: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
 
