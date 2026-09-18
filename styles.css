@@ -185,7 +185,25 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-  border-style: solid;
+  border: 3px solid #7342d65f;
   color: #7342d6;
-  padding: 30px;
+  padding: 80px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 32px;
+  margin-bottom: 24px;
+  }
+
+.highlight__para {
+  text-align: center;
 }
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
