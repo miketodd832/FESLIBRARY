@@ -194,7 +194,7 @@ HIGHLIGHTS
 
 #highlights:after {
   bottom: 0px;
-  transform: translateY(-100%) rotate(180deg);
+  transform: translateY(100%) rotate(180deg);
   z-index: 0;
 }
 
