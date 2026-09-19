@@ -156,11 +156,6 @@ button:active {
   z-index: 1;
 }
 
-.highlights__container {
-  padding: 56px 0;
-  z-index: 2;
-}
-
 .row {
   width: 100%;
   max-width: 1200px;
@@ -174,32 +169,38 @@ HIGHLIGHTS
 */
 #highlights {
   position: relative;
-  isolation: isola
+  isolation: isolate;
+  background-color: white;
 }
 
 #highlights:before,
 #highlights:after {
-  background: url("./assets/wave.svg");
+  background: url(./assets/wave.svg);
   content: "";
   position: absolute;
-  top: 1px;
   left: 0;
   width: 101vw;
   height: 12vw;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: translateY(-100%);
   z-index: 0;
 }
 
 #highlights:before {
-  top: 1px;
-  transform: translate(-100%);
+  top: 0px;
+  transform: translate(-100%) rotate(180deg);
+  z-index: 0;
 }
 
 #highlights:after {
   bottom: 1px;
-  transform: translateY(100%) rotate(180deg);
+  transform: translateY(-100%);
+  z-index: 0;
+}
+
+.highlights__container {
+  padding: 56px 0;
+  z-index: 1;
 }
 
 .highlight__wrapper {
