@@ -188,13 +188,13 @@ HIGHLIGHTS
 
 #highlights:before {
   top: 0px;
-  transform: translate(-100%) rotate(180deg);
+  transform: translateY(-100%);
   z-index: 0;
 }
 
 #highlights:after {
-  bottom: 1px;
-  transform: translateY(-100%);
+  bottom: 0px;
+  transform: translateY(-100%) rotate(180deg);
   z-index: 0;
 }
 
