@@ -24,8 +24,8 @@
   align-items: center;
   width: 100%;
   max-width: 1200px;
- 
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .purple {
@@ -85,20 +85,19 @@ header {
 .header__container {
   width: 100%;
   max-width: 720px;
-  margin: 0 auto;
-  height: 100%;
+  margin: 16px auto 0;
+  min-height: 100%;
+  padding: 2px 20px;
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
   justify-content: space-around;
-  padding: 2px 2px 2px 12px
+  align-items: center;
 }
 
 .header__description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  ;
   margin-top: 32px;
 }
 
@@ -111,7 +110,6 @@ header {
   padding: 10px 10px 10px 10px;
   margin-top: 120px;
   z-index: 10;
-  
 }
 
 h1 {
@@ -140,7 +138,7 @@ button:active {
 }
 
 .container {
-  padding: 60px;
+  padding: 60px 20px;
 }
 
 .btn {
@@ -163,6 +161,16 @@ button:active {
   margin: 0 auto;
 }
 
+.nav__container,
+.header__container,
+.row,
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*
 
 HIGHLIGHTS
@@ -179,7 +187,7 @@ HIGHLIGHTS
   content: "";
   position: absolute;
   left: 0;
-  width: 101vw;
+  width: 100%;
   height: 12vw;
   background-size: cover;
   background-repeat: no-repeat;
@@ -229,7 +237,7 @@ HIGHLIGHTS
   border-radius: 4px;
   font-size: 32px;
   margin-bottom: 24px;
-  }
+}
 
 .highlight__para {
   text-align: center;
