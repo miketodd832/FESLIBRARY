@@ -142,12 +142,15 @@ button:active {
 }
 
 .btn {
+  display: inline-block;
   color: white;
   padding: 12px 24px;
   border-radius: 4px;
   background-color: #7342d6;
   font-size: 20px;
   border: none;
+  text-decoration: none;
+  margin: 0 auto;
 }
 
 .header__img--wrapper {
@@ -318,3 +321,23 @@ FEATURES
   margin-bottom: 8px;
   color: #fabf2a;
 }
+
+/*
+
+RECENT
+
+*/
+
+.EXPLORE {
+  background-color:  rgba(115, 66, 214, 0.1);
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+.section__title--explore {
+  padding: 55px;
+}
+
