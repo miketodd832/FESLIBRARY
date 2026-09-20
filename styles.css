@@ -281,7 +281,8 @@ FEATURES
 .book__img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
   cursor: no-drop;
 }
 
@@ -291,6 +292,7 @@ FEATURES
   margin-bottom: 8px;
   border-radius: 4px;
   overflow: hidden;
+  background-color: #f5f5f5;
 }
 
 .book:hover .book__img {
