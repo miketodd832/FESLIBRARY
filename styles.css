@@ -332,12 +332,25 @@ RECENT
   background-color:  rgba(115, 66, 214, 0.1);
 }
 
-a {
-  display: flex;
-  justify-content: center;
+.section__title--explore {
+  padding-top: 40px;
 }
 
-.section__title--explore {
-  padding: 55px;
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
+
+.explore__figure {
+  height: 220px;
+}
+
+/*
+
+FOOTER
+
+*/
+
 
