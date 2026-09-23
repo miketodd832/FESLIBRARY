@@ -82,10 +82,7 @@ li {
   text-align: center;
   border: none;
   color: #7342d6;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-
+  display: none;
 }
 
 .menu__backdrop {
@@ -469,4 +466,8 @@ footer {
  .nav__links {
     display: none;
   }
+}
+
+.btn__menu {
+  display: block;
 }
