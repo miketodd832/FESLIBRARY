@@ -466,8 +466,9 @@ footer {
  .nav__links {
     display: none;
   }
-}
 
-.btn__menu {
-  display: block;
+
+ .btn__menu {
+   display: block;
+  }
 }
