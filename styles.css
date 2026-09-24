@@ -357,7 +357,7 @@ FEATURES
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  
 }
 
 .book {
@@ -376,7 +376,8 @@ FEATURES
 
 .book__img--wrapper {
   height: 380px;
-  width: 260px;
+  width: 100%;
+  max-width: 260px;
   margin-bottom: 8px;
   border-radius: 4px;
   overflow: hidden;
@@ -448,7 +449,7 @@ footer {
 
 .footer__logo--img {
   width: 160px;
-  filter: grayscale(1)  invert(1);
+  filter: grayscale(1) invert(1);
 }
 
 .footer__copyright,
