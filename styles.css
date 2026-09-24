@@ -96,11 +96,19 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  transition: all 400ms ease;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .menu--open .menu__backdrop{
-  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu--open {
+  max-height: 100vh;
+  overflow-y: hidden;
 }
 
 .menu__links {
@@ -321,7 +329,7 @@ HIGHLIGHTS
 
 .highlight__para {
   text-align: center;
-  max-width: 380px;
+  max-width: 280px;
 }
 
 h3 {
